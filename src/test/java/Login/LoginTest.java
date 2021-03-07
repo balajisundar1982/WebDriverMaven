@@ -23,7 +23,8 @@ public class LoginTest {
 	@Test
 	public void doLogin ()
 	{
-		driver.get("http://gmail.com");
+		driver.get("https://www.thetestroom.com/webapp/index.html");
+		driver.findElement(By.id("adoption_link")).click();
 				
 	}
 	
