@@ -24,7 +24,7 @@ public class LoginTest {
 	public void doLogin ()
 	{
 		driver.get("https://www.thetestroom.com/webapp/index.html");
-		driver.findElement(By.id("adoption_link")).click();
+		driver.findElement(By.id("contact_link")).click();
 
 				
 	}
